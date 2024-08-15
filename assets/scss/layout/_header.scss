@@ -1,0 +1,16 @@
+.navbar-brand{
+    background-image: url(/assets/images/LogoVector.png);
+    width: 96px; 
+    height: 28px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav-link{
+    font-weight: $font-weight-bold;
+}
+
+.nav-item{
+    padding: 8px 20px;
+}

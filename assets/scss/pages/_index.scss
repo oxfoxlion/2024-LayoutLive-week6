@@ -1,0 +1,95 @@
+.banner{
+    background-image: url(/assets/images/banner.png);
+    padding: 228px 0;
+}
+
+.hot-theme{
+    height: 200px;
+    background-size:cover;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hot-theme1{
+    background-image: url(/assets/images/theme-1.png);
+}
+
+.hot-theme2{
+    background-image: url(/assets/images/theme-2.png);
+}
+
+.hot-theme3{
+    background-image: url(/assets/images/theme-3.png);
+}
+
+.hot-theme4{
+    background-image: url(/assets/images/theme-4.png);
+}
+.hot-theme5{
+    background-image: url(/assets/images/theme-5.png);
+}
+.hot-theme6{
+    background-image: url(/assets/images/theme-6.png);
+}
+.hot-theme7{
+    background-image: url(/assets/images/theme-7.png);
+}
+.hot-theme8{
+    background-image: url(/assets/images/theme-8.png);
+}
+
+.hot-theme::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(117, 117, 117, 0.4);
+    opacity:0;
+    transition: opacity 0.3s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+.hot-theme:hover::after {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+.swiper-pagination{
+    width: 232px;
+    position: relative;
+}
+
+.swiper-pagination::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 1px solid $neutral-400;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mothersDay{
+    position: relative;
+}
+.mothersDay::after{
+    content: "";
+    background-image: url(/assets/images/bg-1.png);
+    position: absolute;
+    width: 217px;
+    height: 81px;
+    bottom: 0;
+    left: 0;
+}
+
+.mothersDay::before{
+    content: "";
+    background-image: url(/assets/images/bg-2.png);
+    position: absolute;
+    width: 300px;
+    height: 196px;
+    bottom: 0;
+    right: 0;
+}
