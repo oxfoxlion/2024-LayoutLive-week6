@@ -70,24 +70,27 @@
 
     <div class="container py-12">
       <div class="row">
-        <div class="col-4 d-flex flex-column justify-content-between">
+        <div class="col-4">
+          <div class=" d-flex flex-column justify-content-between h-100">
             <h2 class="fw-bolder">精選文章</h2>
             <div>
-              <div class="swiper-pagination-custom mb-7"></div>
+              <div class="swiper-pagination-custom1 mb-7"></div>
               <div class="swiper-pagination d-flex justify-content-between position-relative">
-                <div class="swiper-prev d-inline-block px-3 border border-1 border-dark rounded-5 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <div class="swiper-prev1 d-inline-block px-3 border border-1 border-dark rounded-5 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                 </svg></div>
-                <div class="swiper-next d-inline-block px-3 border border-1 border-dark rounded-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <div class="swiper-next1 d-inline-block px-3 border border-1 border-dark rounded-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                 </svg></div>
               </div>
             </div>
+          </div>
+            
 
           
         </div>
         <div class="col-8">
-          <div class="swiper">
+          <div class="swiper swiper1">
             <div class="swiper-wrapper">
               <div class="card swiper-slide border-top-0 border-1 border-start-0 border-end-0 rounded-bottom-0 border-neutral-500">
                 <img src="/assets/images/articles-1.png" class="card-img-top mb-6" alt="私人島嶼的露營奇遇記">
@@ -171,7 +174,403 @@
         <button class="btn btn-accent-200 text-white rounded-5 py-4 px-6 mt-9">我想了解</button>
       </div>
     </div>
+
+    <div class="container py-12">
+      <h2 class="fw-bolder mb-9">大家都在看</h2>
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills me-3 bg-white p-6 h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="gap:24px;box-shadow: 0px 2px 8px #6e6b6714;">
+            <button class="nav-link active text-start" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#alcoholRun" type="button" role="tab" aria-controls="alcoholRun" aria-selected="true">．酒精路跑地圖</button>
+            <button class="nav-link text-start" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#TaipeiRamenMap" type="button" role="tab" aria-controls="TaipeiRamenMap" aria-selected="false">．台北拉麵圖鑑</button>
+            <button class="nav-link text-start" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#islandTravel" type="button" role="tab" aria-controls="islandTravel" aria-selected="false">．海島自由行</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#travelAdvice" type="button" role="tab" aria-controls="travelAdvice" aria-selected="false">．短天數出國推薦</button>
+            <button class="nav-link text-start" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#weekendCamping" type="button" role="tab" aria-controls="weekendCamping" aria-selected="false">．週末露營趣 </button>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content bg-white p-9" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="alcoholRun" role="tabpanel" aria-labelledby="alcoholRun-tab">
+              <div class="row">
+                <div class="col-12 mb-9">
+                  <h5 class="text-accent-200 mb-6 fw-bolder">酒精路跑地圖</h5>
+                  <div class="d-flex flex-column" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                    <a href="#" class="fw-bold">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a>
+                    <a href="#" class="fw-bold">｜台南老宅手工酒藏,尋味百年人文釀意</a>
+                  </div>
+                </div>
+              </div>
+
+                <div class="row g-1 mb-4">
+                  <div class="col">
+                    <img src="/assets/images/hots-1.png" alt="酒精路跑地圖1" class="rounded-start-5 rounded-end-0">
+                  </div>
+                  <div class="col">
+                    <img src="/assets/images/hots-2.png" alt="酒精路跑地圖2">
+                  </div>
+                  <div class="col">
+                    <img src="/assets/images/hots-3.png" alt="酒精路跑地圖3">
+                  </div>
+                  <div class="col">
+                    <img src="/assets/images/hots-4.png" alt="酒精路跑地圖4" class="rounded-start-0 rounded-end-5">
+                  </div>
+                </div>
+              
+
+              <div class="row py-6">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <ul class="d-flex justify-content-start ps-0 m-0" style="list-style:none;gap:16px;">
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#夜貓行程</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#barhopping</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#全台酒吧</a></li>
+                    </ul>
+                    <button class="btn text-accent-200 d-flex align-items-center justify-content-center fw-bold">View More<span class="material-symbols-outlined">
+                      arrow_forward
+                      </span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="TaipeiRamenMap" role="tabpanel" aria-labelledby="TaipeiRamenMap-tab">
+
+              <div class="row">
+                <div class="col-12 mb-9">
+                  <h5 class="text-accent-200 mb-6 fw-bolder">台北拉麵圖鑑</h5>
+                  <div class="d-flex flex-column" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜城市酒吧人氣榜,盤點當紅熱門酒吧</a>
+                    <a href="#" class="fw-bold">｜你要的調酒師在這裡！五月全台酒吧客座活動整理</a>
+                    <a href="#" class="fw-bold">｜台南老宅手工酒藏,尋味百年人文釀意</a>
+                  </div>
+                </div>
+              </div>
+                <div class="row g-4 mb-4">
+                  <div class="col-4">
+                    <img src="/assets/images/hots-3-sm.png" alt="台北拉麵圖鑑" class="rounded-start-5 rounded-end-0">
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/hots-3-sm.png" alt="台北拉麵圖鑑" class="rounded-start-0 rounded-end-5">
+                  </div>
+                </div>
+              
+
+              <div class="row py-6">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <ul class="d-flex justify-content-start ps-0 m-0" style="list-style:none;gap:16px;">
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#雞白湯</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#拉麵</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#台北美食</a></li>
+                    </ul>
+                    <button class="btn text-accent-200 d-flex align-items-center justify-content-center fw-bold">View More<span class="material-symbols-outlined">
+                      arrow_forward
+                      </span></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="islandTravel" role="tabpanel" aria-labelledby="islandTravel-tab">
+
+              <div class="row">
+                <div class="col-12 mb-9">
+                  <h5 class="text-accent-200 mb-6 fw-bolder">海島自由行</h5>
+                  <div class="d-flex flex-column" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜私島慢活島嶼生活 - 在熱帶天堂品...</a>
+                    <a href="#" class="fw-bold">｜海島漂流記 - 在陽光、沙灘和比基...</a>
+                    <a href="#" class="fw-bold">｜島嶼蹤跡 - 揭開加勒比海上世外桃...</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row g-4 mb-4">
+                  <div class="col-4">
+                    <img src="/assets/images/hots-4-sm.png" alt="海島自由行" class="rounded-start-5 rounded-end-0">
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/hots-4-sm.png" alt="海島自由行" class="rounded-start-0 rounded-end-5">
+                  </div>
+              </div>
+
+              <div class="row py-6">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <ul class="d-flex justify-content-start ps-0 m-0" style="list-style:none;gap:16px;">
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#熱帶國家</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#海邊</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#無敵海景</a></li>
+                    </ul>
+                    <button class="btn text-accent-200 d-flex align-items-center justify-content-center fw-bold">View More<span class="material-symbols-outlined">
+                      arrow_forward
+                      </span></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="travelAdvice" role="tabpanel" aria-labelledby="travelAdvice-tab">
+              
+              <div class="row">
+                <div class="col-12 mb-9">
+                  <h5 class="text-accent-200 mb-6 fw-bolder">短天數出國推薦</h5>
+                  <div class="d-flex flex-column" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜72小時東京遊走 - 當個時尚東京通</a>
+                    <a href="#" class="fw-bold">｜48小時曼谷遊玩全攻略 </a>
+                    <a href="#" class="fw-bold">｜三天兩夜賞櫻微醺東京</a>
+                  </div>
+                </div>
+              </div>
+              
+                <div class="row g-4 mb-4">
+                  <div class="col-4">
+                    <img src="/assets/images/hots-5-sm.png" alt="短天數出國推薦" class="rounded-start-5 rounded-end-0">
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/images/hots-5-sm.png" alt="短天數出國推薦" class="rounded-start-0 rounded-end-5">
+                  </div>
+                </div>
+
+              <div class="row py-6">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <ul class="d-flex justify-content-start ps-0 m-0" style="list-style:none;gap:16px;">
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#說走就走</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#出國玩</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#東亞</a></li>
+                    </ul>
+                    <button class="btn text-accent-200 d-flex align-items-center justify-content-center fw-bold">View More<span class="material-symbols-outlined">
+                      arrow_forward
+                      </span></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="weekendCamping" role="tabpanel" aria-labelledby="weekendCamping-tab">
+
+              <div class="row">
+                <div class="col-12 mb-9">
+                  <h5 class="text-accent-200 mb-6 fw-bolder">週末露營趣</h5>
+                  <div class="d-flex flex-column" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜週末說走就走露營記</a>
+                    <a href="#" class="fw-bold">｜城市野營日記</a>
+                    <a href="#" class="fw-bold">｜和寵物去露營 - 大自然之旅的雙倍...</a>
+                  </div>
+                </div>
+              </div>
+              
+                <div class="row g-4 mb-4">
+                  <div class="col-4">
+                    <img src="/assets/images/read-1-sm.png" alt="週末露營趣" class="rounded-start-5 rounded-end-5">
+                  </div>
+                </div>
+
+              <div class="row py-6">
+                <div class="col-12">
+                  <div class="d-flex justify-content-between">
+                    <ul class="d-flex justify-content-start ps-0 m-0" style="list-style:none;gap:16px;">
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#戶外</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#露營控</a></li>
+                      <li><a href="#" class="d-block bg-primary-300 text-primary-400">#凹豆</a></li>
+                    </ul>
+                    <button class="btn text-accent-200 d-flex align-items-center justify-content-center fw-bold">View More<span class="material-symbols-outlined">
+                      arrow_forward
+                      </span></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <div class="container py-12">
+      <div class="d-flex justify-content-between mb-9">
+        <h2 class="fw-bolder">品味生活</h2>
+        <div class="swiper-pagination d-flex justify-content-between position-relative">
+          <div class="swiper-prev2 d-inline-block px-3 border border-1 border-dark rounded-5 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg></div>
+          <div class="swiper-next2 d-inline-block px-3 border border-1 border-dark rounded-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg></div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="swiper2 swiper">
+            <div class="swiper-wrapper">
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">食.</h5>
+                  <img src="/assets/images/life-1.png" class="mb-6" alt="食">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜週末說走就走露營記</a>
+                    <a href="#" class="fw-bold">｜城市野營日記</a>
+                    <a href="#" class="fw-bold">｜和寵物去露營 - 大自然之旅的雙倍...</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">藝.</h5>
+                  <img src="/assets/images/life-2.png" class="mb-6" alt="藝">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜週末說走就走露營記</a>
+                    <a href="#" class="fw-bold">｜城市野營日記</a>
+                    <a href="#" class="fw-bold">｜和寵物去露營 - 大自然之旅的雙倍...</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">旅.</h5>
+                  <img src="/assets/images/life-3.png" class="mb-6" alt="旅">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜解構教主級時裝設計大師的獨特美學</a>
+                    <a href="#" class="fw-bold">｜當代攝影師鏡頭中的光影離奇</a>
+                    <a href="#" class="fw-bold">｜帶你穿縮中世紀，夏季文藝復興展</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">食.</h5>
+                  <img src="/assets/images/life-1.png" class="mb-6" alt="食">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜週末說走就走露營記</a>
+                    <a href="#" class="fw-bold">｜城市野營日記</a>
+                    <a href="#" class="fw-bold">｜和寵物去露營 - 大自然之旅的雙倍...</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">藝.</h5>
+                  <img src="/assets/images/life-2.png" class="mb-6" alt="藝">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜週末說走就走露營記</a>
+                    <a href="#" class="fw-bold">｜城市野營日記</a>
+                    <a href="#" class="fw-bold">｜和寵物去露營 - 大自然之旅的雙倍...</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="card swiper-slide border-0">
+                <div class="card-body ps-0">
+                  <h5 class="card-title fw-bolder mb-8 text-primary-400" style="font-size: 52px;">旅.</h5>
+                  <img src="/assets/images/life-3.png" class="mb-6" alt="旅">
+                  <div class="d-flex flex-column  my-8" style="gap: 20px;">
+                    <a href="#" class="fw-bold">｜解構教主級時裝設計大師的獨特美學</a>
+                    <a href="#" class="fw-bold">｜當代攝影師鏡頭中的光影離奇</a>
+                    <a href="#" class="fw-bold">｜帶你穿縮中世紀，夏季文藝復興展</a>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" class="btn text-accent-200 fw-bold d-flex justify-content-center align-items-center">View More<span class="material-symbols-outlined ms-3">
+                      arrow_forward
+                      </span></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="bg-primary-200">
+      <div class="container py-12">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex flex-column justify-content-center align-items-start h-100">
+              <h5 class="fw-bolder text-neutral-400 mb-4">今天又不知道要去哪裡了嗎？</h5>
+              <h2 class="fw-bold mb-8">Vivre 給你意想不到的生活風格提案</h2>
+              <button class="btn btn-accent-200 text-white py-4 px-6 d-flex justify-content-center align-items-center">馬上訂閱<span class="material-symbols-outlined">
+                arrow_forward
+                </span></button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="d-flex align-items-end flex-column pt-12" style="gap:40px">
+                  <div class="life life1 d-flex align-items-end w-100 rounded-2 position-relative">
+                    <a href="#" class="d-flex justify-content-between align-items-center d-block w-100 p-6 text-white"><h6>親子露營要帶什麼？</h6><span class="material-symbols-outlined">
+                          arrow_forward
+                          </span></a>
+                    <p class="bg-white border border-accent-100 rounded-1 py-2 px-3 text-accent-300 position-absolute top-0 start-25 translate-middle fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-2">
+                      arrow_right
+                      </span>人氣行程</p>
+                  </div>
+                  <div class="life life1 d-flex align-items-end w-100 rounded-2 position-relative">
+                    <a href="#" class="d-flex justify-content-between align-items-center d-block w-100 p-6 text-white"><h6>親子露營要帶什麼？</h6><span class="material-symbols-outlined">
+                          arrow_forward
+                          </span></a>
+                    <p class="bg-white border border-accent-100 rounded-1 py-2 px-3 text-accent-300 position-absolute top-0 start-25 translate-middle fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-2">
+                      arrow_right
+                      </span>人氣行程</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="d-flex align-items-start flex-column pb-12" style="gap:40px">
+                  <div class="life life1 d-flex align-items-end w-100 rounded-2 position-relative">
+                    <a href="#" class="d-flex justify-content-between align-items-center d-block w-100 p-6 text-white"><h6>親子露營要帶什麼？</h6><span class="material-symbols-outlined">
+                          arrow_forward
+                          </span></a>
+                    <p class="bg-white border border-accent-100 rounded-1 py-2 px-3 text-accent-300 position-absolute top-0 start-25 translate-middle fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-2">
+                      arrow_right
+                      </span>人氣行程</p>
+                  </div>
+                  <div class="life life1 d-flex align-items-end w-100 rounded-2 position-relative">
+                    <a href="#" class="d-flex justify-content-between align-items-center d-block w-100 p-6 text-white"><h6>親子露營要帶什麼？</h6><span class="material-symbols-outlined">
+                          arrow_forward
+                          </span></a>
+                    <p class="bg-white border border-accent-100 rounded-1 py-2 px-3 text-accent-300 position-absolute top-0 start-25 translate-middle fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-2">
+                      arrow_right
+                      </span>人氣行程</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <%- include('./layout/footer'); -%>
