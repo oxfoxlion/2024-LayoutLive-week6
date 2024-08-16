@@ -1,3 +1,22 @@
+@mixin smaill{
+    @media (min-width:567px) {
+        @content;
+    }
+}
+
+@mixin medium{
+    @media (min-width:768px) {
+        @content;
+    }
+}
+
+@mixin large{
+    @media (min-width:992px) {
+        @content;
+    }
+}
+
+
 body{
     font-family: "Newsreader","Noto Serif TC", serif;
 }

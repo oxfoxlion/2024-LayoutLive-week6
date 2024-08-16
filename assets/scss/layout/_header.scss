@@ -14,3 +14,17 @@
 .nav-item{
     padding: 8px 20px;
 }
+
+.searchBox{
+    width: 100%;
+    @include large{
+        width: 25%;
+    }
+}
+
+.signInBtn{
+    width:100%;
+    @include large{
+        width: auto;
+    }
+}
