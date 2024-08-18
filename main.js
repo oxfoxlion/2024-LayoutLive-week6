@@ -30,7 +30,7 @@ const swiper1 = new Swiper('.swiper1', {
 
    const swiper2 = new Swiper('.swiper2', {
     slidesPerView: 3,
-    spaceBetween: 48,
+    spaceBetween: 24,
     slidesPerGroup:1,
     
     navigation: {
@@ -43,6 +43,18 @@ const swiper1 = new Swiper('.swiper1', {
     slidesPerView: 1,
     spaceBetween: 48,
     slidesPerGroup:1,
+    autoplay: {
+      delay: 3000,
+    },
+   });
+
+   const swiper4 = new Swiper('.swiper4', {
+    slidesPerView: 1,
+    spaceBetween: 48,
+    slidesPerGroup:1,
+    autoplay: {
+      delay: 3000,
+    },
    });
 
 
