@@ -1,5 +1,6 @@
 import './assets/scss/all.scss';
 
+// Swiper
 const swiper1 = new Swiper('.swiper1', {
     slidesPerView: 2,
     spaceBetween: 48,
@@ -57,7 +58,7 @@ const swiper1 = new Swiper('.swiper1', {
     },
    });
 
-
+// GSAP
    const hoverUps = document.querySelectorAll(".hoverUp");
 
 hoverUps.forEach(hoverUp => {
@@ -69,3 +70,6 @@ hoverUps.forEach(hoverUp => {
       gsap.to(hoverUp, { y:0 });
   });
 });
+
+// AOS
+AOS.init();
